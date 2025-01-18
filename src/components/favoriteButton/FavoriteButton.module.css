@@ -1,0 +1,14 @@
+.button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.1s;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}

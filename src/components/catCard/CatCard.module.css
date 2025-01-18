@@ -1,0 +1,15 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.13);
+  box-shadow: 0px 6px 5px 0px #0000003d, 0px 9px 18px 0px #0000002e;
+}
+
+.image {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
